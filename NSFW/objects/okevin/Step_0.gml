@@ -4,7 +4,7 @@ UpKey = keyboard_check(vk_up);
 DownKey = keyboard_check(vk_down);
 
 xspd = (RightKey-LeftKey) * moveSpeed;
-yspd = (DownKey-UpKey) * moveSpeed
+yspd = (DownKey-UpKey) * moveSpeed;
 
 
 
@@ -19,3 +19,21 @@ if place_meeting(x, y+yspd, oWall) == true
 x  += xspd;
 y += yspd;
 
+// set sprite
+mask_index = sprite[RIGHT];
+
+		if xspd > 0  {face = RIGHT}
+		if xspd < 0  {face = LEFT}	
+			
+		if (xspd == 0 )
+		{
+			if (face == RIGHT){ face = 5; }
+				
+			if (face == LEFT){ face = 4;  }
+		};
+		
+		if (face == 5 && yspd != 0) {face = RIGHT; }
+		if (face == 4 && yspd != 0) {face = LEFT; }
+
+
+sprite_index = sprite[face];
