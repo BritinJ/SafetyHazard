@@ -10,13 +10,13 @@ yspd = (DownKey-UpKey) * moveSpeed;
 
 //collsions
 
-if place_meeting(x + xspd, y, oWall) == true
+if place_meeting(x + xspd, y, oNo_Go) == true
 { xspd = 0;}
 
-if place_meeting(x, y+yspd, oWall) == true
+if place_meeting(x, y+yspd, oNo_Go) == true
 { yspd = 0; }
 
-x  += xspd;
+x += xspd;
 y += yspd;
 
 // set sprite

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sWalls",
-    "path": "sprites/sWalls/sWalls.yy",
+    "name": "sNo_Go",
+    "path": "sprites/sNo_Go/sNo_Go.yy",
   },
   "solid": true,
   "visible": false,
@@ -29,7 +29,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWall",
+  "name": "oNo_Go",
   "tags": [],
   "resourceType": "GMObject",
 }

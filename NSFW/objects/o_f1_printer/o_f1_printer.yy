@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sWalls",
-    "path": "sprites/sWalls/sWalls.yy",
+    "name": "s_F1_Printer",
+    "path": "sprites/s_F1_Printer/s_F1_Printer.yy",
   },
   "solid": true,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -21,15 +21,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":69,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "interactables",
+    "path": "folders/Objects/interactables.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWall",
+  "name": "o_f1_printer",
   "tags": [],
   "resourceType": "GMObject",
 }
